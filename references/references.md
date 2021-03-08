@@ -1,0 +1,4 @@
+- tutorialspoint
+    - https://www.tutorialspoint.com/scala/index.htm
+- scala_text
+    - https://scala-text.github.io/scala_text/
