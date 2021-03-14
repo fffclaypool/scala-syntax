@@ -1,4 +1,4 @@
-/*Private Members
+/* Private Members
 A private member is visible only inside the class or object that contains the member definition.
 Following is the example code snippet to explain Private member −
  */

@@ -1,7 +1,9 @@
 /* Implicit Conversion
 Implicit conversion is a feature that allows the user to define implicit type conversion functions.
 Implicit conversion is defined as follows:
+
   implicit def method name (arg name: arg type): return type = body
+
 There are several ways to use implicit conversion, such as when you want to fit a newly defined
 user-defined type to an existing type. For example:
  */

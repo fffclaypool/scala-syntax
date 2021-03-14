@@ -3,9 +3,11 @@ Repeats a statement or group of statements while a given condition is true.
 It tests the condition before executing the loop body. A while loop statement
 repeatedly executes a target statement as long as a given condition is true.
 The following is a syntax for while loop.
+
   while(condition){
     statement(s);
   }
+
 Here, statement(s) may be a single statement or a block of statements. The
 condition may be any expression, and true is any nonzero value. The loop
 iterates while the condition is true. When the condition becomes false,program
@@ -20,9 +22,11 @@ Unlike while loop, which tests the loop condition at the top of the loop, the
 do-while loop checks its condition at the bottom of the loop. A do-while loop
 is similar to a while loop, except that a do-while loop is guaranteed to execute
 at least one time. The following is the syntax for do-while loop.
+
   do {
     statement(s);
   } while( condition );
+
 Notice that the conditional expression appears at the end of the loop, so the
 statement(s) in the loop execute once before the condition is tested. If the
 condition is true, the flow of control jumps back up to do, and the statement(s)

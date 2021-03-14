@@ -5,16 +5,17 @@ variables are called, fields of the class and methods are called class methods.
 The class name works as a class constructor which can take a number of parameters.
 The above code defines two constructor arguments, xc and yc; they are both visible
 in the whole body of the class.
-class Point(xc: Int, yc: Int) {
-  var x: Int = xc
-  var y: Int = yc
-  def move(dx: Int, dy: Int) {
-    x = x + dx
-    y = y + dy
-    println ("Point x location:" + x);
-    println ("Point y location:" + y);
+
+  class Point(xc: Int, yc: Int) {
+    var x: Int = xc
+    var y: Int = yc
+    def move(dx: Int, dy: Int) {
+      x = x + dx
+      y = y + dy
+      println ("Point x location:" + x);
+      println ("Point y location:" + y);
+    }
   }
-}
  */
 
 // you can create objects using a keyword new and then you can access class fields

@@ -1,4 +1,4 @@
-/*Protected Members
+/* Protected Members
 A protected member is only accessible from subclasses of the class in which the member is defined.
 Following is the example code snippet to explain protected member −
  */

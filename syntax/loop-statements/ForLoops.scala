@@ -12,9 +12,11 @@ object Demo {
     write a loop that needs to execute a specific number of times. There are
     various forms of for loop in Scala which are described below.
     The simplest syntax of for loop with ranges in Scala is −
+
       for( var x <- Range ){
         statement(s);
       }
+
     Here, the Range could be a range of numbers and that is represented as i to j
     or sometime like i until j. The left-arrow ← operator is called a generator,
     so named because it's generating individual values from a range
@@ -55,7 +57,8 @@ object Demo {
     Value of a:9
      */
 
-    /* You can use multiple ranges separated by semicolon (;) within for loop and
+    /*
+    You can use multiple ranges separated by semicolon (;) within for loop and
     in that case loop will iterate through all the possible computations of the
     given ranges. Following is an example of using just two ranges, you can use
     more than two ranges as well.
@@ -82,9 +85,11 @@ object Demo {
   def forLoopWithCollections() = {
     /*
     The following syntax for loop with collections.
+
       for( var x <- List ){
         statement(s);
       }
+
     Here, the List variable is a collection type having a list of elements and
     for loop iterate through all the elements returning one element in x variable
     at a time.
@@ -113,11 +118,13 @@ object Demo {
     statement(s). Following is the syntax of for loop along with filters. To
     add more than one filter to a 'for' expression, separate the filters with
     semicolons(;).
+
       for( var x <- List
             if condition1; if condition2...
          ){
          statement(s);
       }
+
     Try the following example program to understand loop with a filter.
      */
 
@@ -136,10 +143,12 @@ object Demo {
     You can store return values from a "for" loop in a variable or can return
     through a function. To do so, you prefix the body of the 'for' expression
     by the keyword yield. The following is the syntax.
+
       var retVal = for{ var x <- List
          if condition1; if condition2...
       }
       yield x
+
     The curly braces have been used to keep the variables and conditions and
     retVal is a variable where all the values of x will be stored in the form
     of collection. Try the following example program to understand loop with

@@ -4,7 +4,7 @@ the same way you do it in Java, but there are two restrictions: method overridin
 requires the override keyword, and only the primary constructor can pass parameters
 to the base constructor. Let us extend our above class and add one more class
 method.
-Example
+
 Let us take an example of two classes Point class and Location class is inherited
 class using extends keyword. Such an 'extends' clause has two effects: it makes Location
 class inherit all non-private members from Point class, and it makes the type Location
